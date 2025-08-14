@@ -1,0 +1,37 @@
+/* ===== HEADER ===== */
+header {
+    width: 100%;
+    padding: 28px 8%;
+  
+
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav_logo i {
+    color: #e9a209;
+    font-size: 24px;
+    margin-right: 6px;
+}
+
+#nav_list {
+    display: flex;
+    gap: 48px;
+    list-style: none;
+}
+
+#nav_list a {
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 2px;
+    transition: border-bottom 0.3s ease;
+}
+
+#nav_list a:hover {
+    border-bottom: 2px solid #e9a209;
+}

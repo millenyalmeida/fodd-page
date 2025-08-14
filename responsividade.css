@@ -1,0 +1,40 @@
+@media screen and (max-width: 1024px) {
+    #home {
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+        padding-top: 0;
+    }
+
+    #banner, #banner img, #shape {
+        display: none;
+    }
+
+    #cta {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    @media screen and (max-width: 480px){
+        #phone_button button{
+            display: none;
+        }
+    }
+
+    #nav_list, .btn-default:not(#phone_button) {
+        display: none;
+    }
+
+    #mobile_btn {
+        display: block;
+    }
+
+}
+
+/* Ajustes de fontes em diferentes dispositivos */
+@media screen and (min-width: 480px) { body { font-size: 17px; } }
+@media screen and (min-width: 768px) { body { font-size: 18px; } }
+@media screen and (min-width: 1024px) { body { font-size: 19px; } }
+@media screen and (min-width: 1200px) { body { font-size: 20px; } }

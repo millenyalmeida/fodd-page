@@ -1,0 +1,87 @@
+#home {
+    display: flex;
+    min-height: calc(100vh - 91px);
+    position: relative;
+}
+
+#cta {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+#cta .title {
+    font-size: 4rem;
+    color: #1d1d1d;
+}
+
+#cta .title span {
+    color: #e9a209;
+}
+
+#cta .description {
+    font-size: 1.2rem;
+}
+
+#cta_buttons {
+    display: flex;
+    gap: 24px;
+}
+
+#phone_button {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding: 8px 14px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 12px 4px rgba(0,0,0,0.1);
+}
+
+.social-media-buttons {
+    display: flex;
+    gap: 18px;
+}
+
+.social-media-buttons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 40px;
+    background-color: #fff;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    box-shadow: 0 0 12px 4px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.social-media-buttons a:hover {
+    box-shadow: 0 0 12px 8px rgba(0,0,0,0.1);
+}
+
+/* ===== BANNER E SHAPE ===== */
+#banner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: end;
+    width: 70%;
+    z-index: 2;
+}
+
+#banner img {
+    height: 100%;
+    width: auto;
+}
+
+#shape {
+    background-color: #ffe8b4;
+    width: 55%;
+    height: 100%;
+    position: absolute;
+    border-radius: 40% 0% 10% 20%;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}

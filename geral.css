@@ -1,0 +1,50 @@
+/* ===== FONTES ===== */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* ===== BODY E SEÇÕES ===== */
+body {
+    background-color: #fff9ea;
+}
+
+section {
+    padding: 28px 8%;
+}
+
+/* ===== BOTÕES ===== */
+.btn-default {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffcb45;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-weight: 600;
+    box-shadow: 0 0 10px 2px rgba(0,0,0,0.1);
+    cursor: pointer;
+    text-decoration: none;
+    color: #1d1d1d;
+    transition: background-color 0.3s ease;
+}
+
+.btn-default:hover {
+    background-color: #f8d477;
+}
+
+
+.section-title{
+    color: #e9a209;
+    font-size: 1.6rem;
+}
+
+.section-subtitle{
+    font-size: 2.1875rem;
+}
+
